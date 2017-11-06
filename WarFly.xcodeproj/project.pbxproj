@@ -7,27 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061762771FAE518B0035A74C /* PlayerPlane.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 061762761FAE518B0035A74C /* PlayerPlane.atlas */; };
+		0624A1B01EEC4F2000B3EC2F /* YellowShot.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0624A1AF1EEC4F2000B3EC2F /* YellowShot.atlas */; };
+		0624A1B31EEC500B00B3EC2F /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0624A1B21EEC500B00B3EC2F /* Shot.swift */; };
+		0624A1B51EEC51EC00B3EC2F /* YellowShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0624A1B41EEC51EC00B3EC2F /* YellowShot.swift */; };
+		0624A1B71EEC56F000B3EC2F /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0624A1B61EEC56F000B3EC2F /* Assets.swift */; };
+		066CA1C21FAE3CC200E20B67 /* LocatinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066CA1C11FAE3CC200E20B67 /* LocatinManager.swift */; };
+		0673BCC81EEC6B0E00503037 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673BCC71EEC6B0D00503037 /* MenuScene.swift */; };
+		0673BCCA1EEC7BFC00503037 /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673BCC91EEC7BFC00503037 /* BitMaskCategory.swift */; };
+		068782341EE801D20085FC5A /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068782331EE801D20085FC5A /* Enemy.swift */; };
+		068782361EE801FE0085FC5A /* Enemy_1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 068782351EE801FE0085FC5A /* Enemy_1.atlas */; };
+		0687823E1EE881710085FC5A /* Enemy_2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0687823D1EE881710085FC5A /* Enemy_2.atlas */; };
+		06A60C3A1EE5AE7B005FF2F7 /* protocol GameBackgroundSriteable + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A60C391EE5AE7B005FF2F7 /* protocol GameBackgroundSriteable + Extention.swift */; };
+		06AE1ACF1EEC20BF00B093F5 /* BluePowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 06AE1ACE1EEC20BF00B093F5 /* BluePowerUp.atlas */; };
+		06AE1AD11EEC28B800B093F5 /* GreenPowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE1AD01EEC28B800B093F5 /* GreenPowerUp.swift */; };
+		06AE1AD31EEC28C800B093F5 /* BluePowerUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE1AD21EEC28C800B093F5 /* BluePowerUP.swift */; };
+		06BC94721EE7390400B9301B /* Powerup2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC94711EE7390400B9301B /* Powerup2.swift */; };
+		06BC94741EE73A3500B9301B /* GreenPowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 06BC94731EE73A3500B9301B /* GreenPowerUp.atlas */; };
+		06BC94761EE7541F00B9301B /* PowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BC94751EE7541F00B9301B /* PowerUp.swift */; };
+		06BED53D1EE57F2400F81A87 /* PlayerPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BED53C1EE57F2400F81A87 /* PlayerPlane.swift */; };
+		06FD65EC1EE4AEF900434703 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FD65EB1EE4AEF900434703 /* Cloud.swift */; };
+		C11A16612F722A5CC10BC6F0 /* Pods_WarFly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3693845317BA49217E878B5 /* Pods_WarFly.framework */; };
 		C9CB4DF81EA7843F001BDB4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CB4DF71EA7843F001BDB4E /* AppDelegate.swift */; };
-		C9CB4DFA1EA7843F001BDB4E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C9CB4DF91EA7843F001BDB4E /* GameScene.sks */; };
-		C9CB4DFC1EA7843F001BDB4E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C9CB4DFB1EA7843F001BDB4E /* Actions.sks */; };
 		C9CB4DFE1EA7843F001BDB4E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CB4DFD1EA7843F001BDB4E /* GameScene.swift */; };
 		C9CB4E001EA7843F001BDB4E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CB4DFF1EA7843F001BDB4E /* GameViewController.swift */; };
 		C9CB4E031EA7843F001BDB4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CB4E011EA7843F001BDB4E /* Main.storyboard */; };
 		C9CB4E051EA7843F001BDB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9CB4E041EA7843F001BDB4E /* Assets.xcassets */; };
 		C9CB4E081EA7843F001BDB4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CB4E061EA7843F001BDB4E /* LaunchScreen.storyboard */; };
+		C9CB4E121EA78A6D001BDB4E /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CB4E111EA78A6D001BDB4E /* Background.swift */; };
+		C9CB4E141EA78DC0001BDB4E /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CB4E131EA78DC0001BDB4E /* Island.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061762761FAE518B0035A74C /* PlayerPlane.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerPlane.atlas; sourceTree = "<group>"; };
+		0624A1AF1EEC4F2000B3EC2F /* YellowShot.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = YellowShot.atlas; sourceTree = "<group>"; };
+		0624A1B21EEC500B00B3EC2F /* Shot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
+		0624A1B41EEC51EC00B3EC2F /* YellowShot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowShot.swift; sourceTree = "<group>"; };
+		0624A1B61EEC56F000B3EC2F /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		066CA1C11FAE3CC200E20B67 /* LocatinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatinManager.swift; sourceTree = "<group>"; };
+		0673BCC71EEC6B0D00503037 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		0673BCC91EEC7BFC00503037 /* BitMaskCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
+		068782331EE801D20085FC5A /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		068782351EE801FE0085FC5A /* Enemy_1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Enemy_1.atlas; path = ../../Enemy_1.atlas; sourceTree = "<group>"; };
+		0687823D1EE881710085FC5A /* Enemy_2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Enemy_2.atlas; path = ../../Enemy_2.atlas; sourceTree = "<group>"; };
+		06A60C391EE5AE7B005FF2F7 /* protocol GameBackgroundSriteable + Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "protocol GameBackgroundSriteable + Extention.swift"; sourceTree = "<group>"; };
+		06AE1ACE1EEC20BF00B093F5 /* BluePowerUp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = BluePowerUp.atlas; path = ../../BluePowerUp.atlas; sourceTree = "<group>"; };
+		06AE1AD01EEC28B800B093F5 /* GreenPowerUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenPowerUp.swift; sourceTree = "<group>"; };
+		06AE1AD21EEC28C800B093F5 /* BluePowerUP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluePowerUP.swift; sourceTree = "<group>"; };
+		06BC94711EE7390400B9301B /* Powerup2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Powerup2.swift; sourceTree = "<group>"; };
+		06BC94731EE73A3500B9301B /* GreenPowerUp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = GreenPowerUp.atlas; path = ../../GreenPowerUp.atlas; sourceTree = "<group>"; };
+		06BC94751EE7541F00B9301B /* PowerUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerUp.swift; sourceTree = "<group>"; };
+		06BED53C1EE57F2400F81A87 /* PlayerPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerPlane.swift; sourceTree = "<group>"; };
+		06FD65EB1EE4AEF900434703 /* Cloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		3FFC1CF179C2A85D9AAC246B /* Pods-WarFly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarFly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarFly/Pods-WarFly.debug.xcconfig"; sourceTree = "<group>"; };
+		C3693845317BA49217E878B5 /* Pods_WarFly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarFly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CB4DF41EA7843F001BDB4E /* WarFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CB4DF71EA7843F001BDB4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9CB4DF91EA7843F001BDB4E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		C9CB4DFB1EA7843F001BDB4E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		C9CB4DFD1EA7843F001BDB4E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		C9CB4DFF1EA7843F001BDB4E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C9CB4E021EA7843F001BDB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9CB4E041EA7843F001BDB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9CB4E071EA7843F001BDB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9CB4E091EA7843F001BDB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9CB4E111EA78A6D001BDB4E /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		C9CB4E131EA78DC0001BDB4E /* Island.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
+		E7967417B573E96BAB31AF69 /* Pods-WarFly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarFly.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarFly/Pods-WarFly.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +79,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11A16612F722A5CC10BC6F0 /* Pods_WarFly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0624A1B11EEC4F6200B3EC2F /* Atlasses */ = {
+			isa = PBXGroup;
+			children = (
+				061762761FAE518B0035A74C /* PlayerPlane.atlas */,
+				0687823D1EE881710085FC5A /* Enemy_2.atlas */,
+				0624A1AF1EEC4F2000B3EC2F /* YellowShot.atlas */,
+				068782351EE801FE0085FC5A /* Enemy_1.atlas */,
+				06BC94731EE73A3500B9301B /* GreenPowerUp.atlas */,
+				06AE1ACE1EEC20BF00B093F5 /* BluePowerUp.atlas */,
+			);
+			name = Atlasses;
+			sourceTree = "<group>";
+		};
+		06A60C3B1EE5FA48005FF2F7 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				C9CB4E111EA78A6D001BDB4E /* Background.swift */,
+				C9CB4E131EA78DC0001BDB4E /* Island.swift */,
+				06FD65EB1EE4AEF900434703 /* Cloud.swift */,
+			);
+			name = background;
+			sourceTree = "<group>";
+		};
+		33A24AE94F48BE9B17D36352 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3693845317BA49217E878B5 /* Pods_WarFly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7974C79BA203867CB918B9CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC1CF179C2A85D9AAC246B /* Pods-WarFly.debug.xcconfig */,
+				E7967417B573E96BAB31AF69 /* Pods-WarFly.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C9CB4DEB1EA7843F001BDB4E = {
 			isa = PBXGroup;
 			children = (
 				C9CB4DF61EA7843F001BDB4E /* WarFly */,
 				C9CB4DF51EA7843F001BDB4E /* Products */,
+				7974C79BA203867CB918B9CE /* Pods */,
+				33A24AE94F48BE9B17D36352 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +147,28 @@
 		C9CB4DF61EA7843F001BDB4E /* WarFly */ = {
 			isa = PBXGroup;
 			children = (
+				066CA1C11FAE3CC200E20B67 /* LocatinManager.swift */,
 				C9CB4DF71EA7843F001BDB4E /* AppDelegate.swift */,
-				C9CB4DF91EA7843F001BDB4E /* GameScene.sks */,
-				C9CB4DFB1EA7843F001BDB4E /* Actions.sks */,
 				C9CB4DFD1EA7843F001BDB4E /* GameScene.swift */,
+				0624A1B41EEC51EC00B3EC2F /* YellowShot.swift */,
+				06BED53C1EE57F2400F81A87 /* PlayerPlane.swift */,
+				068782331EE801D20085FC5A /* Enemy.swift */,
+				0673BCC71EEC6B0D00503037 /* MenuScene.swift */,
+				06BC94711EE7390400B9301B /* Powerup2.swift */,
+				0624A1B21EEC500B00B3EC2F /* Shot.swift */,
+				0624A1B61EEC56F000B3EC2F /* Assets.swift */,
+				06BC94751EE7541F00B9301B /* PowerUp.swift */,
+				06AE1AD01EEC28B800B093F5 /* GreenPowerUp.swift */,
+				06AE1AD21EEC28C800B093F5 /* BluePowerUP.swift */,
+				06A60C3B1EE5FA48005FF2F7 /* background */,
+				06A60C391EE5AE7B005FF2F7 /* protocol GameBackgroundSriteable + Extention.swift */,
 				C9CB4DFF1EA7843F001BDB4E /* GameViewController.swift */,
+				0673BCC91EEC7BFC00503037 /* BitMaskCategory.swift */,
 				C9CB4E011EA7843F001BDB4E /* Main.storyboard */,
 				C9CB4E041EA7843F001BDB4E /* Assets.xcassets */,
 				C9CB4E061EA7843F001BDB4E /* LaunchScreen.storyboard */,
 				C9CB4E091EA7843F001BDB4E /* Info.plist */,
+				0624A1B11EEC4F6200B3EC2F /* Atlasses */,
 			);
 			path = WarFly;
 			sourceTree = "<group>";
@@ -80,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9CB4E0C1EA7843F001BDB4E /* Build configuration list for PBXNativeTarget "WarFly" */;
 			buildPhases = (
+				370EA3683617F0D06ED47923 /* [CP] Check Pods Manifest.lock */,
 				C9CB4DF01EA7843F001BDB4E /* Sources */,
 				C9CB4DF11EA7843F001BDB4E /* Frameworks */,
 				C9CB4DF21EA7843F001BDB4E /* Resources */,
+				1E64B38FE9BA58B1874D44AC /* [CP] Embed Pods Frameworks */,
+				5BD3C71995BC78C3A73FE399 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,7 +208,7 @@
 				TargetAttributes = {
 					C9CB4DF31EA7843F001BDB4E = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 5H969S6YFE;
+						DevelopmentTeam = CL6H8JZ2JY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -133,24 +236,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061762771FAE518B0035A74C /* PlayerPlane.atlas in Resources */,
+				0687823E1EE881710085FC5A /* Enemy_2.atlas in Resources */,
+				068782361EE801FE0085FC5A /* Enemy_1.atlas in Resources */,
 				C9CB4E031EA7843F001BDB4E /* Main.storyboard in Resources */,
-				C9CB4DFA1EA7843F001BDB4E /* GameScene.sks in Resources */,
+				0624A1B01EEC4F2000B3EC2F /* YellowShot.atlas in Resources */,
+				06BC94741EE73A3500B9301B /* GreenPowerUp.atlas in Resources */,
 				C9CB4E051EA7843F001BDB4E /* Assets.xcassets in Resources */,
+				06AE1ACF1EEC20BF00B093F5 /* BluePowerUp.atlas in Resources */,
 				C9CB4E081EA7843F001BDB4E /* LaunchScreen.storyboard in Resources */,
-				C9CB4DFC1EA7843F001BDB4E /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E64B38FE9BA58B1874D44AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WarFly/Pods-WarFly-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SMTPLite/SMTPLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMTPLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarFly/Pods-WarFly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		370EA3683617F0D06ED47923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WarFly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BD3C71995BC78C3A73FE399 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarFly/Pods-WarFly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9CB4DF01EA7843F001BDB4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0673BCC81EEC6B0E00503037 /* MenuScene.swift in Sources */,
+				0673BCCA1EEC7BFC00503037 /* BitMaskCategory.swift in Sources */,
 				C9CB4DFE1EA7843F001BDB4E /* GameScene.swift in Sources */,
+				06BED53D1EE57F2400F81A87 /* PlayerPlane.swift in Sources */,
+				06FD65EC1EE4AEF900434703 /* Cloud.swift in Sources */,
+				068782341EE801D20085FC5A /* Enemy.swift in Sources */,
+				066CA1C21FAE3CC200E20B67 /* LocatinManager.swift in Sources */,
 				C9CB4E001EA7843F001BDB4E /* GameViewController.swift in Sources */,
+				06AE1AD31EEC28C800B093F5 /* BluePowerUP.swift in Sources */,
 				C9CB4DF81EA7843F001BDB4E /* AppDelegate.swift in Sources */,
+				06BC94721EE7390400B9301B /* Powerup2.swift in Sources */,
+				06A60C3A1EE5AE7B005FF2F7 /* protocol GameBackgroundSriteable + Extention.swift in Sources */,
+				06AE1AD11EEC28B800B093F5 /* GreenPowerUp.swift in Sources */,
+				0624A1B71EEC56F000B3EC2F /* Assets.swift in Sources */,
+				C9CB4E141EA78DC0001BDB4E /* Island.swift in Sources */,
+				06BC94761EE7541F00B9301B /* PowerUp.swift in Sources */,
+				C9CB4E121EA78A6D001BDB4E /* Background.swift in Sources */,
+				0624A1B31EEC500B00B3EC2F /* Shot.swift in Sources */,
+				0624A1B51EEC51EC00B3EC2F /* YellowShot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,27 +450,37 @@
 		};
 		C9CB4E0D1EA7843F001BDB4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFC1CF179C2A85D9AAC246B /* Pods-WarFly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5H969S6YFE;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CL6H8JZ2JY;
 				INFOPLIST_FILE = WarFly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.WarFly;
+				PRODUCT_BUNDLE_IDENTIFIER = "vk.com-gold777";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C9CB4E0E1EA7843F001BDB4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7967417B573E96BAB31AF69 /* Pods-WarFly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5H969S6YFE;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CL6H8JZ2JY;
 				INFOPLIST_FILE = WarFly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.WarFly;
+				PRODUCT_BUNDLE_IDENTIFIER = "vk.com-gold777";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -316,6 +503,7 @@
 				C9CB4E0E1EA7843F001BDB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1440FE101B78DE714696A85B7705A37A /* curlrules.h in Headers */ = {isa = PBXBuildFile; fileRef = D1FBB0B9F1BEE700AC88118A7422233A /* curlrules.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		338BE79035A2C2F8BC93329FA5859C3A /* stdcheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B8BC5C4BAB16D01EA1FA23F85E8A82 /* stdcheaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC3027687B15BDAC8AAD4FC9124ED66 /* easy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6681286B61E422C33FB10BA325DF0DE8 /* easy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BDDF806F119E9060B5AF0F320557425 /* curlver.h in Headers */ = {isa = PBXBuildFile; fileRef = 352540E359B7316FB1180104A7461893 /* curlver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A904021C0142393962DDCA74FAF65C /* SMTPLite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF0E2928F93F3FB5BE61EE42F685E32 /* SMTPLite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DCB932AEAE7AC09174398564E6E8C47 /* SMTPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A02A7E33D292F4EAF22B11CB1C833597 /* SMTPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BBC467D3B83143BD1B37154251C0808 /* multi.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E7DFCF75A1DFADC3FD3BC17007FB8E1 /* multi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85ED8A30051CA52B384B9929C2D49CB5 /* curlbuild.h in Headers */ = {isa = PBXBuildFile; fileRef = 859E00AA669942960E1890EF235C30C3 /* curlbuild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		874FDBE1A7A7F9BEFD5C34DF6D4F0D6B /* Pods-WarFly-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E74F192C6F877279F30C98FE7996BB20 /* Pods-WarFly-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB5DD43B76457802A916EC3FF59F848 /* typecheck-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5963B7ECD48E2369449B74488DC8E5FF /* typecheck-gcc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D4080B65176B6BABE8E2A90B35F9967 /* SMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5380B58A15067DA177FFF0EAFDB2B37C /* SMTPMessage.m */; };
+		A54C6C9D64AEDC7C14C4457EE5D044A1 /* SMTPLite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE48587A648F51FD157676986E8F9493 /* SMTPLite-dummy.m */; };
+		AE8848FD23B2D6661072237F7ECE745E /* Pods-WarFly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 304AD527C1E4552A2E18C1BA24490DBD /* Pods-WarFly-dummy.m */; };
+		B5B1EBA4CD4F2B79095E932D0D5488A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C7714C7236314DA1574E41C0A5E2F086 /* curl.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE0F5D850D8694735294044A7F3E35A /* curl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEAE82D254153DE599FBD1F9F3B6BD0F /* mprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF148E5E9A72F510C03D20163E09BFC /* mprintf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9DEA7854EB4D777A963B9D7F2B39A4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA7752D5E0B6E605ABD225E4F4EF675B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 996CF594D3ADC6DCA3B79E5CF3708812;
+			remoteInfo = SMTPLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C7AAFD22DCAEDA2E880D8A5B749C4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EEADF3A1E1801589FC39032B484A84A /* Pods_WarFly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WarFly.framework; path = "Pods-WarFly.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		301F778C0DAB546D4A9FAF19C0A7BEB4 /* SMTPLite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SMTPLite.modulemap; sourceTree = "<group>"; };
+		304AD527C1E4552A2E18C1BA24490DBD /* Pods-WarFly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WarFly-dummy.m"; sourceTree = "<group>"; };
+		352540E359B7316FB1180104A7461893 /* curlver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = curlver.h; path = smtp/curl/curl/curlver.h; sourceTree = "<group>"; };
+		516B42A348C68FEBE40A8FF81002AEAA /* Pods-WarFly-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WarFly-resources.sh"; sourceTree = "<group>"; };
+		5380B58A15067DA177FFF0EAFDB2B37C /* SMTPMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SMTPMessage.m; path = smtp/SMTPMessage.m; sourceTree = "<group>"; };
+		5963B7ECD48E2369449B74488DC8E5FF /* typecheck-gcc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "typecheck-gcc.h"; path = "smtp/curl/curl/typecheck-gcc.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6681286B61E422C33FB10BA325DF0DE8 /* easy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = easy.h; path = smtp/curl/curl/easy.h; sourceTree = "<group>"; };
+		69B8BC5C4BAB16D01EA1FA23F85E8A82 /* stdcheaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stdcheaders.h; path = smtp/curl/curl/stdcheaders.h; sourceTree = "<group>"; };
+		6DD701F9E7F5C6AA1639CBB13A3B6FDF /* Pods-WarFly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WarFly.debug.xcconfig"; sourceTree = "<group>"; };
+		6F7ACE98EAD12EE946F7222594D5CB60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7647C2F30DE6E6CD410F64D7B31553BC /* Pods-WarFly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WarFly.release.xcconfig"; sourceTree = "<group>"; };
+		85782BE4CFBC7657088C0842742026D8 /* Pods-WarFly-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WarFly-acknowledgements.plist"; sourceTree = "<group>"; };
+		8578734F4FC70ABA164CEC9A6F11003C /* libcurl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcurl.a; path = smtp/curl/libcurl.a; sourceTree = "<group>"; };
+		859E00AA669942960E1890EF235C30C3 /* curlbuild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = curlbuild.h; path = smtp/curl/curl/curlbuild.h; sourceTree = "<group>"; };
+		8AF0E2928F93F3FB5BE61EE42F685E32 /* SMTPLite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMTPLite-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7DFCF75A1DFADC3FD3BC17007FB8E1 /* multi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = multi.h; path = smtp/curl/curl/multi.h; sourceTree = "<group>"; };
+		A02A7E33D292F4EAF22B11CB1C833597 /* SMTPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMTPMessage.h; path = smtp/SMTPMessage.h; sourceTree = "<group>"; };
+		A465505E23B1B5A983DDC544CF2F8859 /* Pods-WarFly.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WarFly.modulemap"; sourceTree = "<group>"; };
+		B3005BDEAD199671752CB4EF967B8EB9 /* SMTPLite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMTPLite-prefix.pch"; sourceTree = "<group>"; };
+		B8F28DD04C8B607AE3A9A38AC979382F /* SMTPLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMTPLite.framework; path = SMTPLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE0F5D850D8694735294044A7F3E35A /* curl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = curl.h; path = smtp/curl/curl/curl.h; sourceTree = "<group>"; };
+		C5FF2BBD78C6615C708A08AE925E80E6 /* Pods-WarFly-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WarFly-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C74D444809750D9686F0388296B898D5 /* Pods-WarFly-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WarFly-frameworks.sh"; sourceTree = "<group>"; };
+		CDF148E5E9A72F510C03D20163E09BFC /* mprintf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mprintf.h; path = smtp/curl/curl/mprintf.h; sourceTree = "<group>"; };
+		D1FBB0B9F1BEE700AC88118A7422233A /* curlrules.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = curlrules.h; path = smtp/curl/curl/curlrules.h; sourceTree = "<group>"; };
+		E74F192C6F877279F30C98FE7996BB20 /* Pods-WarFly-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WarFly-umbrella.h"; sourceTree = "<group>"; };
+		EE48587A648F51FD157676986E8F9493 /* SMTPLite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMTPLite-dummy.m"; sourceTree = "<group>"; };
+		FC9EF3E201F9CBF285EEFAB92ED7D434 /* SMTPLite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMTPLite.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05818D3A310DA05203596ADA268BBDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DEA7854EB4D777A963B9D7F2B39A4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB893FD6AD6FADDFAEBD33E38038C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B1EBA4CD4F2B79095E932D0D5488A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154385752AB8EC4A039DE7EE85A7A2D8 /* SMTPLite */ = {
+			isa = PBXGroup;
+			children = (
+				BDE0F5D850D8694735294044A7F3E35A /* curl.h */,
+				859E00AA669942960E1890EF235C30C3 /* curlbuild.h */,
+				D1FBB0B9F1BEE700AC88118A7422233A /* curlrules.h */,
+				352540E359B7316FB1180104A7461893 /* curlver.h */,
+				6681286B61E422C33FB10BA325DF0DE8 /* easy.h */,
+				CDF148E5E9A72F510C03D20163E09BFC /* mprintf.h */,
+				9E7DFCF75A1DFADC3FD3BC17007FB8E1 /* multi.h */,
+				A02A7E33D292F4EAF22B11CB1C833597 /* SMTPMessage.h */,
+				5380B58A15067DA177FFF0EAFDB2B37C /* SMTPMessage.m */,
+				69B8BC5C4BAB16D01EA1FA23F85E8A82 /* stdcheaders.h */,
+				5963B7ECD48E2369449B74488DC8E5FF /* typecheck-gcc.h */,
+				5CB8579E733153B157327091B65344D8 /* Frameworks */,
+				79E5BCF32DDBF389CA92368469D59BDB /* Support Files */,
+			);
+			name = SMTPLite;
+			path = SMTPLite;
+			sourceTree = "<group>";
+		};
+		2DB2C024F9300C35DA8397603EA7B94D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4745992B6B644D36BFC12B3369554C0C /* Pods-WarFly */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4745992B6B644D36BFC12B3369554C0C /* Pods-WarFly */ = {
+			isa = PBXGroup;
+			children = (
+				09C7AAFD22DCAEDA2E880D8A5B749C4F /* Info.plist */,
+				A465505E23B1B5A983DDC544CF2F8859 /* Pods-WarFly.modulemap */,
+				C5FF2BBD78C6615C708A08AE925E80E6 /* Pods-WarFly-acknowledgements.markdown */,
+				85782BE4CFBC7657088C0842742026D8 /* Pods-WarFly-acknowledgements.plist */,
+				304AD527C1E4552A2E18C1BA24490DBD /* Pods-WarFly-dummy.m */,
+				C74D444809750D9686F0388296B898D5 /* Pods-WarFly-frameworks.sh */,
+				516B42A348C68FEBE40A8FF81002AEAA /* Pods-WarFly-resources.sh */,
+				E74F192C6F877279F30C98FE7996BB20 /* Pods-WarFly-umbrella.h */,
+				6DD701F9E7F5C6AA1639CBB13A3B6FDF /* Pods-WarFly.debug.xcconfig */,
+				7647C2F30DE6E6CD410F64D7B31553BC /* Pods-WarFly.release.xcconfig */,
+			);
+			name = "Pods-WarFly";
+			path = "Target Support Files/Pods-WarFly";
+			sourceTree = "<group>";
+		};
+		5CB8579E733153B157327091B65344D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8578734F4FC70ABA164CEC9A6F11003C /* libcurl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F84A55B1D67C7D5CFCDCD2E8AF149FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EEADF3A1E1801589FC39032B484A84A /* Pods_WarFly.framework */,
+				B8F28DD04C8B607AE3A9A38AC979382F /* SMTPLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E5BCF32DDBF389CA92368469D59BDB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F7ACE98EAD12EE946F7222594D5CB60 /* Info.plist */,
+				301F778C0DAB546D4A9FAF19C0A7BEB4 /* SMTPLite.modulemap */,
+				FC9EF3E201F9CBF285EEFAB92ED7D434 /* SMTPLite.xcconfig */,
+				EE48587A648F51FD157676986E8F9493 /* SMTPLite-dummy.m */,
+				B3005BDEAD199671752CB4EF967B8EB9 /* SMTPLite-prefix.pch */,
+				8AF0E2928F93F3FB5BE61EE42F685E32 /* SMTPLite-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SMTPLite";
+			sourceTree = "<group>";
+		};
+		7D959D775ED4A3B7EEFF0E5628BF4949 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				154385752AB8EC4A039DE7EE85A7A2D8 /* SMTPLite */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7D959D775ED4A3B7EEFF0E5628BF4949 /* Pods */,
+				5F84A55B1D67C7D5CFCDCD2E8AF149FA /* Products */,
+				2DB2C024F9300C35DA8397603EA7B94D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BFEBC70824495A8FE8581CCDFA036083 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FDBE1A7A7F9BEFD5C34DF6D4F0D6B /* Pods-WarFly-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8578F34CDD045CBC1FDF0994947B1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7714C7236314DA1574E41C0A5E2F086 /* curl.h in Headers */,
+				85ED8A30051CA52B384B9929C2D49CB5 /* curlbuild.h in Headers */,
+				1440FE101B78DE714696A85B7705A37A /* curlrules.h in Headers */,
+				5BDDF806F119E9060B5AF0F320557425 /* curlver.h in Headers */,
+				3DC3027687B15BDAC8AAD4FC9124ED66 /* easy.h in Headers */,
+				CEAE82D254153DE599FBD1F9F3B6BD0F /* mprintf.h in Headers */,
+				7BBC467D3B83143BD1B37154251C0808 /* multi.h in Headers */,
+				67A904021C0142393962DDCA74FAF65C /* SMTPLite-umbrella.h in Headers */,
+				6DCB932AEAE7AC09174398564E6E8C47 /* SMTPMessage.h in Headers */,
+				338BE79035A2C2F8BC93329FA5859C3A /* stdcheaders.h in Headers */,
+				9BB5DD43B76457802A916EC3FF59F848 /* typecheck-gcc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		996CF594D3ADC6DCA3B79E5CF3708812 /* SMTPLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BF8B693273606527D990F92E3F9652 /* Build configuration list for PBXNativeTarget "SMTPLite" */;
+			buildPhases = (
+				7A0BBE7CC8BC5904E5C10016CD7A63D7 /* Sources */,
+				8CB893FD6AD6FADDFAEBD33E38038C88 /* Frameworks */,
+				DC8578F34CDD045CBC1FDF0994947B1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMTPLite;
+			productName = SMTPLite;
+			productReference = B8F28DD04C8B607AE3A9A38AC979382F /* SMTPLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A014CAA49ABAC09544282BEA9573705B /* Pods-WarFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E4C8539D2AD19116E0F6489B28733F /* Build configuration list for PBXNativeTarget "Pods-WarFly" */;
+			buildPhases = (
+				8F8B19AFE9B1901DD640A2A753864182 /* Sources */,
+				05818D3A310DA05203596ADA268BBDEF /* Frameworks */,
+				BFEBC70824495A8FE8581CCDFA036083 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00B6AD1A042037AC6DB46A8DBE5A9B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-WarFly";
+			productName = "Pods-WarFly";
+			productReference = 2EEADF3A1E1801589FC39032B484A84A /* Pods_WarFly.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5F84A55B1D67C7D5CFCDCD2E8AF149FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A014CAA49ABAC09544282BEA9573705B /* Pods-WarFly */,
+				996CF594D3ADC6DCA3B79E5CF3708812 /* SMTPLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A0BBE7CC8BC5904E5C10016CD7A63D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54C6C9D64AEDC7C14C4457EE5D044A1 /* SMTPLite-dummy.m in Sources */,
+				9D4080B65176B6BABE8E2A90B35F9967 /* SMTPMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8B19AFE9B1901DD640A2A753864182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8848FD23B2D6661072237F7ECE745E /* Pods-WarFly-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00B6AD1A042037AC6DB46A8DBE5A9B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SMTPLite;
+			target = 996CF594D3ADC6DCA3B79E5CF3708812 /* SMTPLite */;
+			targetProxy = DA7752D5E0B6E605ABD225E4F4EF675B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C5013F19AE7AE6443901D8E36441D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9EF3E201F9CBF285EEFAB92ED7D434 /* SMTPLite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SMTPLite/SMTPLite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMTPLite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMTPLite/SMTPLite.modulemap";
+				PRODUCT_NAME = SMTPLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		479C4A7F4778D435C1FE29E779FF4996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9EF3E201F9CBF285EEFAB92ED7D434 /* SMTPLite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SMTPLite/SMTPLite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMTPLite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMTPLite/SMTPLite.modulemap";
+				PRODUCT_NAME = SMTPLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F520113253A40A437C38FB9DD9E782E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7647C2F30DE6E6CD410F64D7B31553BC /* Pods-WarFly.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WarFly/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WarFly/Pods-WarFly.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WarFly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE35C53A6659D647FE96F865B3FDE37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD701F9E7F5C6AA1639CBB13A3B6FDF /* Pods-WarFly.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WarFly/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WarFly/Pods-WarFly.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WarFly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E4C8539D2AD19116E0F6489B28733F /* Build configuration list for PBXNativeTarget "Pods-WarFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE35C53A6659D647FE96F865B3FDE37D /* Debug */,
+				F520113253A40A437C38FB9DD9E782E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0BF8B693273606527D990F92E3F9652 /* Build configuration list for PBXNativeTarget "SMTPLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5013F19AE7AE6443901D8E36441D9E /* Debug */,
+				479C4A7F4778D435C1FE29E779FF4996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

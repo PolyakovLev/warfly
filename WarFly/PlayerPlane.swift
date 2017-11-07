@@ -10,7 +10,7 @@ import SpriteKit
 import CoreMotion
 
 class PlayerPlane: SKSpriteNode {
-    var a = 1565858
+    var a = 15658586847
     let motionManager = CMMotionManager() // отслеживать повороты устройства
     var xAcceleration:CGFloat = 0 // повороты в скорость
     let screenSize = CGSize(width: UIScreen.main.bounds.width, height:  UIScreen.main.bounds.height)
